@@ -1,0 +1,25 @@
+name = Mkvadrat
+description = A flexible, recolorable theme with many regions.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+stylesheets[all][] = css/mkvadrat.css
+
+scripts[] = js/main.js
+
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+settings[shortcut_module_link] = 0
+
+
+; Information added by Drupal.org packaging script on 2015-06-17
+version = "1.0"
+project = "mkvadrat"
+datestamp = "1434567286"
+

@@ -1,0 +1,464 @@
+.contacts-banner {
+
+	height: 361px;
+
+	overflow: hidden;
+
+	margin-bottom: 30px;
+
+	position: relative;
+
+}
+
+
+
+.contacts-banner img {
+
+	width: 100%;
+
+	min-height: 361px;
+
+	height: auto;
+
+}
+
+
+
+.block-contacts-tittle {
+
+	width: 1050px;
+
+    position: absolute;
+
+    height: 100%;
+
+    text-align: center;
+
+    top: 0px;
+
+    left: 50%;
+
+    margin-left: -525px;
+
+}
+
+
+
+.contacts-banner .contacts-tittle {
+
+	color: white;
+
+	font-family: "MyriadProBold";
+
+	font-size: 48px;
+
+	font-weight: bold;
+
+	text-transform: uppercase;
+
+	margin-top: 160px;
+
+}
+
+
+
+.contacts-banner .contacts-tittle span {
+
+	color: #FFF;
+
+	background-color: #cb0000;
+
+	padding: 8px 18px;
+
+}
+
+
+
+#main-content {
+
+    margin: 0px 0px 40px;
+
+}
+
+
+
+.container {
+
+    width: 1050px;
+
+    margin: 0px auto;
+
+    position: relative;
+
+}
+
+
+
+.contacts-page {
+
+	margin-bottom: 40px;
+
+}
+
+
+
+.contacts-page h2 {
+
+	color: #5f646d;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 24px;
+
+	font-weight: 700;
+
+	line-height: 28px;
+
+	padding-top: 20px;
+
+	padding-bottom: 14px;
+
+	position: relative;
+
+}
+
+
+
+.contacts-page .smaller {
+
+	font-size: 18px;
+
+}
+
+
+
+.contacts-page .red-line {
+
+	width: 40px;
+
+	height: 2px;
+
+	background-color: #cb0000;
+
+	margin-bottom: 12px;
+
+}
+
+
+
+.contacts-page .section {
+
+	background-color: #fafafa;
+
+	min-height: 270px;
+
+	height: auto;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.contacts-page .contacts-block {
+
+	width: 500px;
+
+	padding-left: 20px;
+
+	margin-bottom: 20px;
+
+}
+
+
+
+.contacts-page .contacts-block table tr td {
+
+	color: #5f646d;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 26px;
+
+}
+
+
+
+.contacts-page .contacts-block table tr td:first-child {
+
+	width: 150px;
+
+	color: #8c8c8c;
+
+}
+
+
+
+.contacts-page .map-block {
+
+	float: right;
+
+	width: 525px;
+
+	height: auto;
+
+}
+
+
+
+.gray-bg-block {
+
+	background-color: #fafafa;
+
+	overflow: hidden;
+
+}
+
+
+
+.gray-bg-block .form {
+
+	width: 523px;
+
+	margin: 40px auto;
+
+}
+
+
+
+.gray-bg-block .form input,
+
+.gray-bg-block .form textarea {
+
+	display: block;
+
+	width: 100%;
+
+	background-color: #ededed;
+
+	border-radius: 2px;
+
+	padding: 10px;
+
+}
+
+
+
+.gray-bg-block .form input {
+
+	height: 39px;
+
+	color: #a6a6a6;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 26px;
+
+	border: none;
+
+	background-color: #ededed;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.gray-bg-block .form textarea {
+
+	height: 135px;
+
+	background-color: #ededed;
+
+	border-radius: 2px;
+
+	color: #a6a6a6;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 16px;
+
+	font-weight: 400;
+
+	line-height: 26px;
+
+	border: none;
+
+	resize: none;
+
+	margin-bottom: 14px;
+
+}
+
+
+
+.gray-bg-block .form input:focus::-webkit-input-placeholder {color: transparent}
+.gray-bg-block .form input:focus::-moz-placeholder          {color: transparent}
+.gray-bg-block .form input:focus:-moz-placeholder           {color: transparent}
+.gray-bg-block .form input:focus:-ms-input-placeholder      {color: transparent}
+
+
+
+.gray-bg-block .form input[type="submit"] {
+
+	position: relative;
+
+	width: 230px;
+
+	height: 29px;
+
+	border: 1px solid #cb0000;
+
+	margin: 0 auto;
+
+	padding: 0;
+
+	color: #cb0000;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 14px;
+
+	font-weight: 400;
+
+	line-height: 18px;
+
+	text-transform: uppercase;
+
+	background: #FFF;
+
+	cursor: pointer;
+
+}
+
+
+
+.gray-bg-block .form input[type="submit"]:hover {
+
+	color: #fff;
+
+	background: #cb0000;
+
+	-webkit-transition: 0.5s;
+
+	   -moz-transition: 0.5s;
+
+	    -ms-transition: 0.5s;
+
+	     -o-transition: 0.5s;
+
+	        transition: 0.5s;
+
+}
+
+
+
+.gray-bg-block .form input[type="submit"]:not(:hover) {
+
+	-webkit-transition: 0.5s;
+
+	   -moz-transition: 0.5s;
+
+	    -ms-transition: 0.5s;
+
+	     -o-transition: 0.5s;
+
+	        transition: 0.5s;
+
+}
+
+
+
+.gray-bg-block .form input[type="submit"]:active {
+
+	top: 1px;
+
+	left: 1px;
+
+}
+
+
+
+.call {
+
+	margin-top: 50px;
+
+	text-align: center;
+
+}
+
+
+
+.call .question {
+
+	color: black;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 30px;
+
+	font-weight: 700;
+
+	padding-bottom: 10px;
+
+}
+
+
+
+.call .offers {
+
+	color: #8c8c8c;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	padding-bottom: 50px;
+
+}
+
+
+
+.call .phone {
+
+	color: #cb0000;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 36px;
+
+	font-weight: 700;
+
+	padding-bottom: 10px;
+
+}
+
+
+
+.call .mail {
+
+	color: black;
+
+	font-family: "OpenSans-Regular";
+
+	font-size: 18px;
+
+	font-weight: 400;
+
+	line-height: 24px;
+
+	padding-bottom: 20px;
+
+}
